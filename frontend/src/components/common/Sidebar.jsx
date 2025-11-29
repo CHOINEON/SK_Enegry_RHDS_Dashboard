@@ -33,7 +33,6 @@ const Sidebar = () => {
             </nav>
             
             <div style={{ position: 'absolute', bottom: '20px' }}>
-                [cite_start]{/* 테마 토글 스위치 */}
                 <label>
                     {theme === 'light' ? '🌞 Light' : '🌙 Dark'}
                     <input 
