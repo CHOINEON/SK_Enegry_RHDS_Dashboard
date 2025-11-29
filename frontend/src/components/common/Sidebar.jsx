@@ -1,17 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAppStore } from "@/hooks/useAppStore";
-// 추후 아이콘 임포트 예정
-// import { ReactComponent as HomeIcon } from '../../assets/icons/dashboard.svg';
-// import { ReactComponent as HhpsIcon } from '../../assets/icons/hhps.svg';
-// import { ReactComponent as RhdsIcon } from '../../assets/icons/rhds.svg';
-// import { ReactComponent as XaiIcon } from '../../assets/icons/xai.svg';
+
+import { ReactComponent as HomeIcon } from '@/assets/icons/home.svg';
+import { ReactComponent as SettingIcon } from '@/assets/icons/setting.svg';
+
 
 const navItems = [
-   { to: "/", label: "홈 (대시보드)"}, 
-   { to: "/hhps", label: "HHPS 가이던스"}, 
-   { to: "/rhds", label: "RHDS 가이던스" }, 
-   { to: "/xai", label: "Explainable AI"}, 
+   { to: "/", label: "홈 (대시보드)", icon: HomeIcon}, 
+   { to: "/hhps", label: "HHPS 가이던스", icon: SettingIcon}, 
+   { to: "/rhds", label: "RHDS 가이던스", icon: SettingIcon}, 
+   { to: "/xai", label: "Explainable AI", icon: SettingIcon}, 
 ];
 
 const Sidebar = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import Logo from '@/assets/images/logo.png'; 
+import gradientBar from '@/assets/icons/gradientBar.svg';
 //추후 로고 첨부 예정
 
 
@@ -15,7 +15,7 @@ const HeaderContainer = styled.header`
     font-size: 1.2em;
     
   
-
+    background-image = {${gradientBar}}
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
