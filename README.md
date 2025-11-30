@@ -1,4 +1,4 @@
-# SK 에너지 RHDS No2 Fractionator 최적화 모니터링 시스템
+# SK 에너지 RHDS No2 Fractionator 최적화 모니터링 시스템(Ver.2)
 
 
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white)
