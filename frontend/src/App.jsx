@@ -1,9 +1,8 @@
-
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout, theme } from 'antd'; 
 import MainLayout from './components/common/MainLayout';
-import Layout from './components/common/Layout'; 
+import SidebarMenu from './components/common/sidebarMenu';
 import DashboardPage from './pages/DashboardPage';
 import HHPSGuidancePage from './pages/HHPSGuidancePage';
 import RHDSGuidancePage from './pages/RHDSGuidancePage';
@@ -27,11 +26,10 @@ function App() {
           collapsed={collapsed}
           theme="dark" // 또는 light
         >
-          {/* Sider 내부 메뉴는 MainLayout  */}
           <div className="demo-logo" />
-          {/* Sidebar 컴포넌트를 Menu 컴포넌트로 대체  진행 중 */}
-          {/* <Sidebar collapsed={collapsed} /> */} 
+          <SidebarMenu />
         </Sider>
+
         <MainLayout 
           collapsed={collapsed}
           setCollapsed={setCollapsed}
@@ -39,7 +37,6 @@ function App() {
           borderRadiusLG={borderRadiusLG}
         >
           <Routes>
-
             <Route path="/" element={<DashboardPage />} />
             <Route path="/hhps" element={<HHPSGuidancePage />} />
             <Route path="/rhds" element={<RHDSGuidancePage />} />
