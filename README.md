@@ -1,4 +1,4 @@
-# SK 에너지 RHDS No2 Fractionator 최적화 모니터링 시스템(Ver.2)
+# S사 RHDS No2 Fractionator 최적화 모니터링 시스템(Ver.2)
 
 
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white)
@@ -12,7 +12,9 @@
 <a href='https://styled-components.com/'>![js](https://img.shields.io/badge/styled--components-DB7093?style=flat&logo=styled-components&logoColor=white)</a>
 
 ## Description 
-본 프로젝트는 S사의 No. 2 RHDS Fractionator, Separator 최적화를 위한 예측 모델의 AI 운전점 가이던스, 및 Explainable AI (XAI) 기능을 제공하는 모니터링 시스템입니다. 이 시스템은 공정 데이터 기반의 예측 모델 결과와 경제성 분석을 통합하여 운전 효율을 극대화하도록 설계되었습니다.
+본 프로젝트는 S사의 No. 2 RHDS Fractionator, Separator 최적화를 위한 예측 모델의 AI 운전점 가이던스, 및 Explainable AI (XAI) 기능을 제공하는 모니터링 시스템을 리팩토링 중인 ver.2 입니다. 
+이 시스템은 공정 데이터 기반의 예측 모델 결과와 경제성 분석을 통합하여 운전 효율을 극대화하도록 설계되었습니다.
+
  
 ## Overview
 - 예측 모델: 주요 제품의 품질 예측 결과를 실시간 데이터와 함께 그래프로 시각화합니다.
